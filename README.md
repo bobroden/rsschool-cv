@@ -1,1 +1,1 @@
-https://bobroden.github.io/rsschool-cv/cv
+https://bobroden.github.io/rsschool-cv/cvfff
