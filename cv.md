@@ -6,4 +6,4 @@
 4. I know several programming languages: C, C++, C#, Javascript and a bit of Python. I understand object-oriented programming and fronted development.
 5. Expirience: tasks from school and univercity
 6. University, itproger, htmlbook, programming school
-7. **Middle**
+7. **Middle*
