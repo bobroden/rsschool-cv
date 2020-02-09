@@ -1,0 +1,23 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Calibri", "Helvetica", sans-serif; 
+}
+main {
+	max-width: 1020px;
+	border: 2px solid gray;
+	border-radius: 5px;
+}
+hr {
+	margin: 15px 0;
+}
+h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+img {
+	width: 50%;
+}
+li {
+	padding-top: 10px;
+}
