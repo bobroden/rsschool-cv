@@ -53,3 +53,7 @@ constructor(public audioTalkService: AudiotalkService, public serverService: Ser
 * 2021. Frontend development (Angular) - Netcracker, N. I. Lobachevsky National Research University;
 * 2022. Frontend development is Netcracker.
 ---
+### Languages
+* English - B1;
+* Russian - C2 (native);
+* Tatar - A1.
