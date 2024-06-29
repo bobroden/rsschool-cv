@@ -32,19 +32,19 @@ I want to become a frontend developer again. I want to remember everything relat
 
 ```
 constructor(public audioTalkService: AudiotalkService, public serverService: ServerService, private router: Router) {
-		if (this.serverService.currentWords.length === 0) {
-			const page: string = localStorage.getItem("page");
-			const group: string = localStorage.getItem("group");
-			if (page === null || group === null) {
-				this.router.navigateByUrl("/main");
-			}
-			this.serverService.page = page;
-			this.serverService.group = group;
-		}
-		this.start();
-		this.audioTalkService.rightWords = 0;
-		this.audioTalkService.wrongWords = 0;
-	}
+  if (this.serverService.currentWords.length === 0) {
+    const page: string = localStorage.getItem("page");
+    const group: string = localStorage.getItem("group");
+    if (page === null || group === null) {
+      this.router.navigateByUrl("/main");
+    }
+    this.serverService.page = page;
+    this.serverService.group = group;
+  }
+  this.start();
+  this.audioTalkService.rightWords = 0;
+  this.audioTalkService.wrongWords = 0;
+}
 
 ```
 
