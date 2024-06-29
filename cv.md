@@ -37,4 +37,8 @@ constructor(public audioTalkService: AudiotalkService, public serverService: Ser
 	}
 ```
 ---
-
+### Work experience
+1. June 2022 - June 2023: Junior Developer;
+2. June 2023 - October 2023: Developer;
+3. October 2023 - present: Engineer.
+---
