@@ -2,7 +2,7 @@
 
 ---
 
-### Contact information
+## Contact information
 
 * Email: *bobrow.bobro2015@yandex.ru*
 * Telegram: *bobroden*
@@ -10,13 +10,13 @@
 
 ---
 
-### Information about yourself
+## Information about yourself
 
 I want to become a frontend developer again. I want to remember everything related to this field, as well as acquire new knowledge that has appeared during my absence. I worked as a frontend developer for about 1.5 years. My strengths are: punctuality, discipline, perfectionism, etc.
 
 ---
 
-### Skills
+## Skills
 
 * HTML
 * CSS
@@ -28,7 +28,7 @@ I want to become a frontend developer again. I want to remember everything relat
 
 ---
 
-### Code examples
+## Code examples
 
 ```
 constructor(public audioTalkService: AudiotalkService, public serverService: ServerService, private router: Router) {
@@ -50,7 +50,7 @@ constructor(public audioTalkService: AudiotalkService, public serverService: Ser
 
 ---
 
-### Work experience
+## Work experience
 
 1. June 2022 - June 2023: Junior Developer;
 2. June 2023 - October 2023: Developer;
@@ -58,7 +58,7 @@ constructor(public audioTalkService: AudiotalkService, public serverService: Ser
 
 ---
 
-### Education
+## Education
 
 1. 2017-2021: UNN. Applied Computer Science - Bachelor's degree.
 2. 2021-2023: BMSTU. Applied Computer Science - Master's degree.
@@ -72,7 +72,7 @@ constructor(public audioTalkService: AudiotalkService, public serverService: Ser
 
 ---
 
-### Languages
+## Languages
 
 * English - B1;
 * Russian - C2 (native);
