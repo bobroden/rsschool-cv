@@ -42,3 +42,14 @@ constructor(public audioTalkService: AudiotalkService, public serverService: Ser
 2. June 2023 - October 2023: Developer;
 3. October 2023 - present: Engineer.
 ---
+### Education
+1. 2017-2021: N. I. Lobachevsky National Research University. Applied Computer Science - Bachelor's degree.
+2. 2021-2023: Bauman Moscow State Technical University. Applied Computer Science - Master's degree.
+3. 2023-2026: IPU RAS named after V. A. Trapeznikov. Mathematical and software support of computer systems, complexes and computer networks - postgraduate course.
+
+* 2020. Immersion in Python - Coursera;
+* 2020. JavaScript, Part 1: Basics and Functions - Coursera;
+* 2020. RS 2020 Q1 - RS-School;
+* 2021. Frontend development (Angular) - Netcracker, N. I. Lobachevsky National Research University;
+* 2022. Frontend development is Netcracker.
+---
