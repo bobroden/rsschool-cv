@@ -103,3 +103,39 @@
   color: #767e9e;
   padding-bottom: 10px;
 }
+
+.skills {
+  background: #f06c64;
+  border-bottom: solid 6px #ea676b;
+}
+
+.skills__title {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #f0d8d9;
+}
+
+.skills__technologies {
+  list-style-type: none;
+  padding-top: 12px;
+}
+
+.skills__technologies li {
+  display: inline-block;
+  border: solid 1px #f0d8d9;
+  color: #f0d8d9;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin-right: 8px;
+  padding: 4px 8px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.skills__technologies li:last-child {
+  margin-right: 0;
+}
+
+.skills__technologies li:hover {
+  background: #b46965;
+}
