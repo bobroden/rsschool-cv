@@ -294,3 +294,47 @@
 .languages__list li:last-child {
   padding-bottom: 0px;
 }
+
+.footer {
+  background: #2d303a;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.year-of-creation {
+  color: #626984;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.image-links {
+  display: flex;
+}
+
+.image-links a {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.image-links a:hover span {
+  color: #f06c64;
+  transition: .3s;
+}
+
+.image-links span {
+  text-decoration: none;
+  color: #626984;
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+
+.image-links img {
+  width: 35px;
+  height: 35px;
+}
