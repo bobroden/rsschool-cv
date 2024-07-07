@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./images/cv.png" />
+  <title>CV - Bobrov Denis</title>
+</head>
+<body>
+
+  <header class="container header">
+    <nav class="navigation">
+      <ul class="navigation__links">
+        <li><a href="#myself-info">Myself Info</a></li>
+        <li><a href="#contact-info">Cotact Info</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code-example">Code Example</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#languages">Languages</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <section class="container main-info" id="myself-info">
+      <img src="./images/photo.webp" alt="Denis Bobrov's photo" class="main-info__photo">
+      <h1 class="main-info__name">Denis Bobrov</h1>
+      <p class="main-info__about">Engineer, 24 y. o., Moscow.</p>
+    </section>
+
+    <section class="container contact-info" id="contact-info">
+      <h2 class="contact-info__title">Contact Info</h2>
+      <ul class="contact-info__contacts">
+        <li>Email: <span class="contact-info__data">bobrow.bobro2015@yandex.ru</span></li>
+        <li>Telegram: <span class="contact-info__data">@bobroden</span></li>
+        <li>Discord: <span class="contact-info__data">bobroden</span></li>
+      </ul>
+    </section>
+
+    <section class="container skills" id="skills">
+      <h2 class="skills__title">Skills</h2>
+      <ul class="skills__technologies">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>SCSS</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>Angular</li>
+        <li>Git</li>
+      </ul>
+    </section>
+
+    <section class="container code-example" id="code-example">
+      <h2 class="code-example__title">Code example</h2>
+      <pre class="code-example__code">
+        <code>
+          constructor(public audioTalkService: AudiotalkService, public serverService: ServerService, private router: Router) {
+            if (this.serverService.currentWords.length === 0) {
+              const page: string = localStorage.getItem("page");
+              const group: string = localStorage.getItem("group");
+              if (page === null || group === null) {
+                this.router.navigateByUrl("/main");
+              }
+              this.serverService.page = page;
+              this.serverService.group = group;
+            }
+            this.start();
+            this.audioTalkService.rightWords = 0;
+            this.audioTalkService.wrongWords = 0;
+          }
+        </code>
+      </pre>
+    </section>
+
+    <section class="container projects" id="projects">
+      <h2 class="projects__title">Projects</h2>
+      <ul class="projects__list">
+        <li><a href="https://netcracker-final-task.netlify.app/" target="_blank">English Book</a></li>
+        <li><a href="https://t1-consulting-task-1-bobroden.netlify.app/" target="_blank">Task Book</a></li>
+        <li><a href="https://bobroden.github.io/virtual-keyboard/" target="_blank">Virtual Keyboard</a></li>
+      </ul>
+    </section>
+
+    <section class="container education" id="education">
+      <h2 class="education__title">Education</h2>
+
+      <h3 class="education__universities-title">Universities</h3>
+      <ol class="education__universities-list">
+        <li>2017-2021: UNN. Applied Computer Science - Bachelor’s degree;</li>
+        <li>2021-2023: BMSTU. Applied Computer Science - Master’s degree;</li>
+        <li>2023-2026: ICS RAS. Mathematical and software support of computer systems,
+        complexes and computer networks - Postgraduate’s degree.</li>
+      </ol>
+
+      <h3 class="education__courses-title">Courses</h3>
+      <ul class="education__courses-list">
+        <li>2020 - Immersion in Python (Coursera);</li>
+        <li>2020 - JavaScript, Part 1: Basics and Functions (Coursera);</li>
+        <li>2020 - RS 2020 Q1 (RS-School);</li>
+        <li>2021 - Frontend Angular development (Netcracker, UNN);</li>
+        <li>2022 - Frontend development (Netcracker).</li>
+      </ul>
+    </section>
+
+    <section class="container languages" id="languages">
+      <h2 class="languages__title">Languages</h2>
+      <ul class="languages__list">
+        <li>English - B1;</li>
+        <li>Russian - C2 (native);</li>
+        <li>Tatar - A1.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="container footer">
+    <div class="year-of-creation">© Copyright 2024</div>
+    <div class="image-links">
+      <a href="https://github.com/bobroden" target="_blank">
+        <img src="./images/github.svg" alt="Github Link"><span>Github</span>
+      </a>
+      <a href="https://rs.school/courses/javascript-ru" target="_blank">
+        <img src="./images/rs_school.ico" alt="Frontend Course Link"><span>Frontend Course</span>
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
