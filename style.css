@@ -139,3 +139,22 @@
 .skills__technologies li:hover {
   background: #b46965;
 }
+
+.code-example {
+  background: #f2f2f2;
+  border-bottom: solid 6px #fff;
+}
+
+.code-example__title {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #666d89;
+  padding-bottom: 10px;
+}
+
+.code-example__code code {
+  font-weight: 300;
+  font-size: 1.4rem;
+  color: #767e9e;
+  font-style: italic;
+}

@@ -14,7 +14,7 @@
         <li><a href="#myself-info">Myself Info</a></li>
         <li><a href="#contact-info">Cotact Info</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#">Code Example</a></li>
+        <li><a href="#code-example">Code Example</a></li>
         <li><a href="#">Projets</a></li>
         <li><a href="#">Education and Languages</a></li>
       </ul>
@@ -49,6 +49,28 @@
         <li>Angular</li>
         <li>Git</li>
       </ul>
+    </section>
+
+    <section class="container code-example" id="code-example">
+      <h2 class="code-example__title">Code example</h2>
+      <pre class="code-example__code">
+        <code>
+          constructor(public audioTalkService: AudiotalkService, public serverService: ServerService, private router: Router) {
+            if (this.serverService.currentWords.length === 0) {
+              const page: string = localStorage.getItem("page");
+              const group: string = localStorage.getItem("group");
+              if (page === null || group === null) {
+                this.router.navigateByUrl("/main");
+              }
+              this.serverService.page = page;
+              this.serverService.group = group;
+            }
+            this.start();
+            this.audioTalkService.rightWords = 0;
+            this.audioTalkService.wrongWords = 0;
+          }
+        </code>
+      </pre>
     </section>
 
   </main>
