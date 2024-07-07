@@ -80,3 +80,26 @@
   color: #767e9e;
   line-height: 30px;
 }
+
+.contact-info {
+  background: #2d303a;
+  border-bottom: solid 6px #323746;
+}
+
+.contact-info__title {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #666d89;
+  padding-bottom: 30px;
+}
+
+.contact-info__contacts {
+  padding-left: 20px;
+}
+
+.contact-info__contacts li {
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #767e9e;
+  padding-bottom: 10px;
+}
