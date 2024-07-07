@@ -104,6 +104,10 @@
   padding-bottom: 10px;
 }
 
+.contact-info__contacts li:last-child {
+  padding-bottom: 0px;
+}
+
 .contact-info__data {
   font-style: italic;
   font-size: 1.8rem;
@@ -163,4 +167,40 @@
   font-size: 1.4rem;
   color: #767e9e;
   font-style: italic;
+}
+
+.projects {
+  background: #f2f2f2;
+  border-bottom: solid 6px #fff;
+}
+
+.projects__title {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #666d89;
+  padding-bottom: 10px;
+}
+
+.projects__list {
+  padding-left: 20px;
+}
+
+.projects__list li {
+  color: #767e9e;
+  font-size: 1.8rem;
+  padding-bottom: 10px;
+}
+
+.projects__list li:last-child {
+  padding-bottom: 0px;
+}
+
+.projects__list a {
+  font-size: 1.8rem;
+  color: #767e9e;
+  transition: .3s;
+}
+
+.projects__list a:hover {
+  color: #f06c64;
 }
